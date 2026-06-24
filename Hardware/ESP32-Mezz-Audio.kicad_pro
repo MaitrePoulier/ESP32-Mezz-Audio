@@ -579,7 +579,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32bb.kicad_pro",
+    "filename": "ESP32-Mezz-Audio.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1099,27 +1099,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "esp32bb.kicad_sch",
-        "name": "ESP32",
+        "filename": "ESP32-Mezz-Audio.kicad_sch",
+        "name": "ESP32-Mezz-Audio",
         "uuid": "0517dd22-de94-4a8b-9b76-2b5b6fdb2923"
-      },
-      {
-        "filename": "esp32bb.kicad_sch",
-        "name": "esp32bb",
-        "uuid": "4882634b-ce53-4bd0-aabc-a2d7450a69c4"
       }
     ],
-    "used_designators": "U8,TP1,JP1-3",
+    "used_designators": "U1-5,U8,TP1,JP1-3",
     "variants": []
   },
   "sheets": [
     [
       "0517dd22-de94-4a8b-9b76-2b5b6fdb2923",
-      "ESP32"
-    ],
-    [
-      "4882634b-ce53-4bd0-aabc-a2d7450a69c4",
-      "Power"
+      "ESP32-Mezz-Audio"
     ]
   ],
   "text_variables": {},
