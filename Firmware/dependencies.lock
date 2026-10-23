@@ -1,0 +1,31 @@
+dependencies:
+  bredr_app_common_utils:
+    dependencies: []
+    source:
+      path: ../../../../../../../var/home/melchior/.espressif/v6.1/esp-idf/examples/bluetooth/bluedroid/classic_bt/common/bredr_app_common_utils
+      type: local
+    version: '*'
+  bt_app_core_utils:
+    dependencies: []
+    source:
+      path: ../../../../../../../var/home/melchior/.espressif/v6.1/esp-idf/examples/bluetooth/bluedroid/classic_bt/common/bt_app_core_utils
+      type: local
+    version: '*'
+  idf:
+    source:
+      type: idf
+    version: 6.1.0
+  lvgl/lvgl:
+    component_hash: 184e532558c1c45fefed631f3e235423d22582aafb4630f3e8885c35281a49ae
+    dependencies: []
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 9.5.0
+direct_dependencies:
+- bredr_app_common_utils
+- bt_app_core_utils
+- lvgl/lvgl
+manifest_hash: 017de1fc522f51c07e38cf21ecb06f4e1d8c5b6967ee2e794dfd30ff56291a8c
+target: esp32
+version: 3.0.0

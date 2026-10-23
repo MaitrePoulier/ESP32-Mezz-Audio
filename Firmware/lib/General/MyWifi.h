@@ -1,9 +1,10 @@
 #ifndef _WIFI_H_
 #define _WIFI_H_
-    #include <WiFi.h>
-    #include <Arduino.h>
+    
+    #include "esp_err.h"
 
+    void MyWifiInit(void);
     void MyWifiScan(void);
-    void MyWifiScanTask(void *);
+    void MyWifiScanTask(void *pvParameters);
 
 #endif

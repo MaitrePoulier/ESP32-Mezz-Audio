@@ -1,0 +1,30 @@
+# Project files to keep in version control
+# Source code, firmware config, schematics, PCB, and docs are intentionally not ignored.
+
+# ESP-IDF / PlatformIO generated build output
+/Firmware/build/
+/Firmware/.pio/
+/Firmware/managed_components/
+/Firmware/.vscode/
+/Firmware/.idea/
+/Firmware/.clangd
+/Firmware/**/*.log
+/Firmware/**/*.elf
+/Firmware/**/*.bin
+/Firmware/**/*.map
+/Firmware/**/*.hex
+/Firmware/**/*.dfu
+
+# KiCad temp and backup artifacts
+/Hardware/ESP32-Mezz-Audio-backups/
+/Hardware/*.bak
+/Hardware/*.tmp
+/Hardware/*.log
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

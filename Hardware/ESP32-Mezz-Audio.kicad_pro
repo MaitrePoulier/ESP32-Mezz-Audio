@@ -181,6 +181,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -192,6 +193,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -203,6 +205,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -560,6 +563,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -627,7 +631,7 @@
       "V-USB": "rgb(120, 109, 255)",
       "Vbatt": "rgb(207, 81, 255)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -909,6 +913,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1102,15 +1107,24 @@
         "filename": "ESP32-Mezz-Audio.kicad_sch",
         "name": "ESP32-Mezz-Audio",
         "uuid": "0517dd22-de94-4a8b-9b76-2b5b6fdb2923"
+      },
+      {
+        "filename": "power_-_base_connectors.kicad_sch",
+        "name": "Power - Base Connectors",
+        "uuid": "06073c66-4a67-47e2-85c7-be564ce6c85a"
       }
     ],
-    "used_designators": "U1-5,U8,TP1,JP1-3",
+    "used_designators": "#PWR9-34,#PWR62-75,#PWR121-122,C1-18,C86-93,D1,J1-2,J6-7,JP1-3,JP6-13,R1-13,R81,TP1,U1-6,U8,U11",
     "variants": []
   },
   "sheets": [
     [
       "0517dd22-de94-4a8b-9b76-2b5b6fdb2923",
       "ESP32-Mezz-Audio"
+    ],
+    [
+      "06073c66-4a67-47e2-85c7-be564ce6c85a",
+      "Power - Base Connectors"
     ]
   ],
   "text_variables": {},
