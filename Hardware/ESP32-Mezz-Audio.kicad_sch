@@ -3597,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 35.56) (xy 278.13 35.56)
+			(xy 265.43 35.56) (xy 269.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 35.56) (xy 266.7 35.56)
+			(xy 254 35.56) (xy 257.81 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4507,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 31.75) (xy 262.89 35.56)
+			(xy 254 31.75) (xy 254 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4566,7 +4566,7 @@
 		(uuid "ff00a72f-190f-4153-b084-6b747d8e6b37")
 	)
 	(label "EN"
-		(at 275.59 35.56 0)
+		(at 266.7 35.56 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -4617,7 +4617,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 262.89 31.75 0)
+		(at 254 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4628,7 +4628,7 @@
 		(fields_autoplaced yes)
 		(uuid "034c6c17-a148-4a68-a89e-83d4d95490df")
 		(property "Reference" "#PWR068"
-			(at 262.89 35.56 0)
+			(at 254 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Value" "+12.4V"
-			(at 262.89 26.67 0)
+			(at 254 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 31.75 0)
+			(at 254 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +4660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 31.75 0)
+			(at 254 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4671,7 +4671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 262.89 31.75 0)
+			(at 254 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +6534,7 @@
 	)
 	(symbol
 		(lib_id "YV-library:RES2K32M-00")
-		(at 270.51 35.56 90)
+		(at 261.62 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6544,7 +6544,7 @@
 		(dnp no)
 		(uuid "48381eb6-6628-4a44-8c00-4ce7a1a92e23")
 		(property "Reference" "R7"
-			(at 265.684 34.29 90)
+			(at 256.794 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6554,7 +6554,7 @@
 			)
 		)
 		(property "Value" "2.32k"
-			(at 270.51 35.56 90)
+			(at 261.62 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6564,7 +6564,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 270.51 37.338 90)
+			(at 261.62 37.338 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +6575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 35.56 0)
+			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6586,7 @@
 			)
 		)
 		(property "Description" "Res, 2.32kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃"
-			(at 270.51 35.56 0)
+			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6597,7 +6597,7 @@
 			)
 		)
 		(property "LCSC" "C852698"
-			(at 270.51 35.56 90)
+			(at 261.62 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6608,7 @@
 			)
 		)
 		(property "PartNumber" "RT0402BRD072K32L"
-			(at 270.51 35.56 0)
+			(at 261.62 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

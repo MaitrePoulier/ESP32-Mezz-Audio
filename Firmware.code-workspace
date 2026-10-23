@@ -4,5 +4,7 @@
 			"path": "Firmware"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"idf.currentSetup": "/home/melchior/.espressif/v6.1/esp-idf"
+	}
 }
