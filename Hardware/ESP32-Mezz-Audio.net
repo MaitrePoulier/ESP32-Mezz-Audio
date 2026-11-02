@@ -1,0 +1,10231 @@
+(export
+	(version "E")
+	(design
+		(source "/run/media/melchior/Data/Projets/ESP32-Mezz-Audio/Hardware/ESP32-Mezz-Audio.kicad_sch")
+		(date "2026-10-30T17:58:45")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/uCtrl and Clk/")
+			(tstamps "/")
+			(title_block
+				(title "HI-END Audio")
+				(company)
+				(rev "100")
+				(date "2026-10-30")
+				(source "ESP32-Mezz-Audio.kicad_sch")
+				(comment
+					(number "1")
+					(value "by Yannick Vallée, ing.")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+		(sheet
+			(number "2")
+			(name "/Power - Base Connectors/")
+			(tstamps "/")
+			(title_block
+				(title "HI-END Audio")
+				(company)
+				(rev)
+				(date "2026-10-30")
+				(source "power_-_base_connectors.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "330pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C2177105")
+				(field
+					(name "PartNumber") "GRM1555C1H331FA01J")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN330PM50V0-00")
+				(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C2177105")
+			)
+			(property
+				(name "PartNumber")
+				(value "GRM1555C1H331FA01J")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "38c4497e-ca2e-442d-a6e4-59ceb068818e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "0c2f9a8e-72f5-4fae-bcfe-fd8fccfa1e82")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "560pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C5182456")
+				(field
+					(name "PartNumber") "CC0402FRNPO9BN561")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN560PM50V0-00")
+				(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C5182456")
+			)
+			(property
+				(name "PartNumber")
+				(value "CC0402FRNPO9BN561")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "c0cf2c4b-e4a5-4104-b74e-153d23a00813")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "c4ea06e3-dc8d-48e7-a716-f42e6bdbf4da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "330pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C2177105")
+				(field
+					(name "PartNumber") "GRM1555C1H331FA01J")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN330PM50V0-00")
+				(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C2177105")
+			)
+			(property
+				(name "PartNumber")
+				(value "GRM1555C1H331FA01J")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "f5f68937-78f6-4c89-a40e-63cb242fc3c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "560pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C5182456")
+				(field
+					(name "PartNumber") "CC0402FRNPO9BN561")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN560PM50V0-00")
+				(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C5182456")
+			)
+			(property
+				(name "PartNumber")
+				(value "CC0402FRNPO9BN561")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "7b7350e2-9c81-4dd3-af48-3479d1994f7a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "330pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C2177105")
+				(field
+					(name "PartNumber") "GRM1555C1H331FA01J")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN330PM50V0-00")
+				(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C2177105")
+			)
+			(property
+				(name "PartNumber")
+				(value "GRM1555C1H331FA01J")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "3bdabc6b-730e-46e9-9c7c-114bc9cc04a7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "330pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C2177105")
+				(field
+					(name "PartNumber") "GRM1555C1H331FA01J")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN330PM50V0-00")
+				(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C2177105")
+			)
+			(property
+				(name "PartNumber")
+				(value "GRM1555C1H331FA01J")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "5a2066bf-c4f4-4cc6-b62a-75434fb86b70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "560pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C5182456")
+				(field
+					(name "PartNumber") "CC0402FRNPO9BN561")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN560PM50V0-00")
+				(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C5182456")
+			)
+			(property
+				(name "PartNumber")
+				(value "CC0402FRNPO9BN561")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "1364a395-d15d-4d1f-a222-51fa38ffc899")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "cfd79e97-7515-40b4-9052-6d21f5142545")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "742800c8-d062-44de-ae42-49cc5b4a46a4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "560pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C5182456")
+				(field
+					(name "PartNumber") "CC0402FRNPO9BN561")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN560PM50V0-00")
+				(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C5182456")
+			)
+			(property
+				(name "PartNumber")
+				(value "CC0402FRNPO9BN561")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "e6ca1e1f-32e7-4850-a1dc-deea5f95ecb9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "49e05241-f828-404f-8014-237abb0a4e76")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C15")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "f68f1c3b-ee6e-44d3-b4cf-800925308813")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C19")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "3d8db099-3698-48ca-851e-0fab0e7bedcc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C20")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "51298dd5-587d-42d2-add2-8d734e1716f5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C21")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "d42be06d-0901-42da-a80b-f57459aaf88a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C22")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "7776010c-210f-49c7-b1b9-e77da5852cef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C23")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "d578799d-48c2-4774-b692-b1514769ca49")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C24")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "76db93d0-7fea-48c3-b9e9-558cb29c6c20")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C25")
+			(value "220nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX220NM25V0-00")
+				(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C915854")
+			)
+			(property
+				(name "PartNumber")
+				(value "TCC0402X7R224K250AT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "d17e3613-e46e-4bc1-985d-ec24b7ece4da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C26")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "39da330c-6357-465c-9129-71ab3a16167b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C27")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "b4b7606f-ed9e-4e4a-87a5-35194bbbdd95")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "Conn-AudioJack")
+			(footprint "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+			(description "Audio Jack, 4 Poles (TRRS), 12V 1A 3.5mm Headphone Jack Copper Gold, -30℃~+70℃")
+			(fields
+				(field
+					(name "PartNumber") "PJ-320D")
+				(field
+					(name "LCSC") "C431535")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Audio Jack, 4 Poles (TRRS), 12V 1A 3.5mm Headphone Jack Copper Gold, -30℃~+70℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "Conn-AudioJack")
+				(description "Audio Jack, 4 Poles (TRRS), 12V 1A 3.5mm Headphone Jack Copper Gold, -30℃~+70℃")
+			)
+			(property
+				(name "PartNumber")
+				(value "PJ-320D")
+			)
+			(property
+				(name "LCSC")
+				(value "C431535")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "audio jack receptacle stereo headphones TRRS connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Jack*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "5ec33fa0-c8b6-4ad9-8752-7afbf81844e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "S")
+						)
+						(pin
+							(num "R2")
+						)
+						(pin
+							(num "R1")
+						)
+						(pin
+							(num "T")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C509028")
+				(field
+					(name "PartNumber") "ERA2ARB102X")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K00M-00")
+				(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C509028")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB102X")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "4a0fdffa-07cc-44b3-9b80-2ac8eeb25672")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "1.58k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C852613")
+				(field
+					(name "PartNumber") "RT0402BRD071K58L")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K58M-00")
+				(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C852613")
+			)
+			(property
+				(name "PartNumber")
+				(value "RT0402BRD071K58L")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "9aa6e36f-ac5f-4477-9d1e-c752498452d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "560R")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C28566372")
+				(field
+					(name "PartNumber") "TC0225B5600TCC")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES560RM-00")
+				(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C28566372")
+			)
+			(property
+				(name "PartNumber")
+				(value "TC0225B5600TCC")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "8cd12ef7-2496-48f5-8b6e-f50e32571725")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C509028")
+				(field
+					(name "PartNumber") "ERA2ARB102X")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K00M-00")
+				(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C509028")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB102X")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "a4dca91c-626d-49fc-80d7-33ce77d44454")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "1.58k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C852613")
+				(field
+					(name "PartNumber") "RT0402BRD071K58L")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K58M-00")
+				(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C852613")
+			)
+			(property
+				(name "PartNumber")
+				(value "RT0402BRD071K58L")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "2628e065-eb07-4b32-8e2c-62879b0d85c8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "560R")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C28566372")
+				(field
+					(name "PartNumber") "TC0225B5600TCC")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES560RM-00")
+				(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C28566372")
+			)
+			(property
+				(name "PartNumber")
+				(value "TC0225B5600TCC")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "426eab64-8916-47c2-970c-de6afbcc003d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C509028")
+				(field
+					(name "PartNumber") "ERA2ARB102X")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K00M-00")
+				(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C509028")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB102X")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "60874182-0cd2-4397-bab0-9a8d63b04273")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "1k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C509028")
+				(field
+					(name "PartNumber") "ERA2ARB102X")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K00M-00")
+				(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C509028")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB102X")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "ee853873-575e-454f-a948-4f6a65fb27a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "1.58k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C852613")
+				(field
+					(name "PartNumber") "RT0402BRD071K58L")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K58M-00")
+				(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C852613")
+			)
+			(property
+				(name "PartNumber")
+				(value "RT0402BRD071K58L")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "1c9152a8-2cf3-488d-a669-8099f6764135")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "1.58k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C852613")
+				(field
+					(name "PartNumber") "RT0402BRD071K58L")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K58M-00")
+				(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C852613")
+			)
+			(property
+				(name "PartNumber")
+				(value "RT0402BRD071K58L")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "61887a44-a496-43d9-8df6-67084a6d9208")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "560R")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C28566372")
+				(field
+					(name "PartNumber") "TC0225B5600TCC")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES560RM-00")
+				(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C28566372")
+			)
+			(property
+				(name "PartNumber")
+				(value "TC0225B5600TCC")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "5ef77868-1b4a-4562-8c2a-d2e0ce1c6fb2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "560R")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C28566372")
+				(field
+					(name "PartNumber") "TC0225B5600TCC")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES560RM-00")
+				(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C28566372")
+			)
+			(property
+				(name "PartNumber")
+				(value "TC0225B5600TCC")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "7d694032-df6a-4d8a-a9f2-c4199e16200e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "3f8fd40d-1deb-4d8f-9936-183649177840")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "4df1c0b3-9da0-42cf-9705-3c485c046385")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "ba221172-66e0-446c-a0c3-8ba5a71955e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "a073522c-2fd0-4678-b35c-3b1a464c6f85")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "0056a919-e006-4704-a844-8f84534d1c1d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "13c1de14-b2e8-48d1-8a01-40221b966f52")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "a4887467-fb10-48f5-b1d1-61bd209e6389")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "c00ef60d-df90-4840-b157-cf40d120870d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "IC-PCM1794A")
+			(footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/pcm1794a.pdf")
+			(description "IC, 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28")
+			(fields
+				(field
+					(name "LCSC") "C783606")
+				(field
+					(name "PartNumber") "PCM1794ADBR")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/pcm1794a.pdf")
+				(field
+					(name "Description") "IC, 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "IC-PCM1794A")
+				(description "IC, 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28")
+			)
+			(property
+				(name "LCSC")
+				(value "C783606")
+			)
+			(property
+				(name "PartNumber")
+				(value "PCM1794ADBR")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "audio dac 2ch 24bit 192kHz")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*5.3x10.2mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "e3ad6098-efb5-42e2-bc45-e049a228f7ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "20")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "OPA1612A")
+			(footprint "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+			(description "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			(fields
+				(field
+					(name "PartNumber") "OPA1612AIDRGR")
+				(field
+					(name "LCSC") "C2058640")
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+				(field
+					(name "Description") "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "IC-OPA1612AxD")
+				(description "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			)
+			(property
+				(name "PartNumber")
+				(value "OPA1612AIDRGR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2058640")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dual opamp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "33797b1f-aac5-42d6-a96d-2c2c279ea152" "c2f2576f-56cb-4e14-9db2-b6fe958eba60"
+				"06c8bc45-151a-4628-bfed-fffb10897f35"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "OPA1612A")
+			(footprint "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+			(description "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			(fields
+				(field
+					(name "PartNumber") "OPA1612AIDRGR")
+				(field
+					(name "LCSC") "C2058640")
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+				(field
+					(name "Description") "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "IC-OPA1612AxD")
+				(description "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			)
+			(property
+				(name "PartNumber")
+				(value "OPA1612AIDRGR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2058640")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dual opamp")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "64566d70-0783-4edc-b24e-b965a83aac61" "7b9c33f8-63e6-4b92-8c80-9f0e79775b7f"
+				"3ef93987-e262-4b66-9efb-f9e7f515a885"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "SN74LVC2G34")
+			(footprint "Package_TO_SOT_SMD:SOT-23-6")
+			(description "IC, 2x Buffers, Vin 1.65V~5.5V, 10uA, Iout 24mA, 6.6ns@5V, 50pF, 74LVC Push-pull, SOT23-6, -40℃~+85℃")
+			(fields
+				(field
+					(name "LCSC") "C7394039")
+				(field
+					(name "PartNumber") "SN74LVC2G34DBVR(UMW)")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "IC, 2x Buffers, Vin 1.65V~5.5V, 10uA, Iout 24mA, 6.6ns@5V, 50pF, 74LVC Push-pull, SOT23-6, -40℃~+85℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "SN74LV1T34DBV")
+				(description "IC, 2x Buffers, Vin 1.65V~5.5V, 10uA, Iout 24mA, 6.6ns@5V, 50pF, 74LVC Push-pull, SOT23-6, -40℃~+85℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C7394039")
+			)
+			(property
+				(name "PartNumber")
+				(value "SN74LVC2G34DBVR(UMW)")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "single buffer level shift")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "8009812b-0572-4616-bc8d-c383011a19da")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "OPA1622")
+			(footprint "Package_SON:Texas_S-PVSON-N10")
+			(datasheet "http://www.ti.com/lit/ds/symlink/opa1622.pdf")
+			(description "IC, High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10")
+			(fields
+				(field
+					(name "PartNumber") "OPA1622IDRCR")
+				(field
+					(name "LCSC") "C2876559")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Package_SON:Texas_S-PVSON-N10")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa1622.pdf")
+				(field
+					(name "Description") "IC, High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "IC-OPA1622")
+				(description "IC, High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10")
+			)
+			(property
+				(name "PartNumber")
+				(value "OPA1622IDRCR")
+			)
+			(property
+				(name "LCSC")
+				(value "C2876559")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "dual opamp audio")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Texas*PVSON*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "cc9dd77f-0bb0-4a01-8664-cb531684f3d2" "34dabc60-cb7c-4fc9-aa97-f85545e9be6a"
+				"18b05f18-9ea1-431a-8a54-d24145635c59"
+			)
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+				(unit
+					(name "B")
+					(pins
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+					)
+				)
+				(unit
+					(name "C")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y1")
+			(value "SX3M24.576B20F30TNF")
+			(footprint "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+			(datasheet "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+			(description "Oscillator, 24.576MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			(fields
+				(field
+					(name "LCSC") "C19268186")
+				(field
+					(name "PartNumber") "SX3M24.576B20F30TNF")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+				(field
+					(name "Datasheet") "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+				(field
+					(name "Description") "Oscillator, 24.576MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "SX3M24.576B20F30TNF")
+				(description "Oscillator, 24.576MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C19268186")
+			)
+			(property
+				(name "PartNumber")
+				(value "SX3M24.576B20F30TNF")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Crystal Clock Oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "c2f914cc-dd6b-4bcb-8191-b6519c01c9d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y2")
+			(value "SX3M22.5792B20F30TNF")
+			(footprint "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+			(datasheet "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+			(description "Oscillator, 22.5792MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			(fields
+				(field
+					(name "LCSC") "C19268185")
+				(field
+					(name "PartNumber") "SX3M22.5792B20F30TNF")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+				(field
+					(name "Datasheet") "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+				(field
+					(name "Description") "Oscillator, 22.5792MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "SX3M22.5792B20F30TNF")
+				(description "Oscillator, 22.5792MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C19268185")
+			)
+			(property
+				(name "PartNumber")
+				(value "SX3M22.5792B20F30TNF")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "uCtrl and Clk")
+			)
+			(property
+				(name "Sheetfile")
+				(value "ESP32-Mezz-Audio.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Crystal Clock Oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*")
+			)
+			(sheetpath
+				(names "/uCtrl and Clk/")
+				(tstamps "/")
+			)
+			(tstamps "9edd7d76-1324-4397-b463-07369654e1db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C28")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "69f66e50-0085-4d35-adf5-5acfec6b9393")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C29")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "132899f5-99d4-466b-b59f-d74188f599e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C88")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "795a3aca-e935-4c47-a802-a331a66aa938")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C90")
+			(value "4.7nF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap C0G, 4.7nF, 50V, ±5% 0402")
+			(fields
+				(field
+					(name "LCSC") "C1518204")
+				(field
+					(name "PartNumber") "GRM1555C1H472JE01D")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 4.7nF, 50V, ±5% 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPN4N70M50V0-00")
+				(description "Cap C0G, 4.7nF, 50V, ±5% 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C1518204")
+			)
+			(property
+				(name "PartNumber")
+				(value "GRM1555C1H472JE01D")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "ec500393-6527-463f-a173-56e769ce6f14")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C92")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "5981755d-81ec-42d2-b08a-62129820357c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C93")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X7R, 1uF, 10V, ±10%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C23692972")
+				(field
+					(name "PartNumber") "CGA0402X7R105K100GT")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 1uF, 10V, ±10%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX1U00M10V0-00")
+				(description "Cap X7R, 1uF, 10V, ±10%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C23692972")
+			)
+			(property
+				(name "PartNumber")
+				(value "CGA0402X7R105K100GT")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "ba53e98a-b9ea-439e-ac66-c72b540b47f0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C94")
+			(value "47uF")
+			(footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(fields
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX47U0S16V0-00")
+				(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			)
+			(property
+				(name "LCSC")
+				(value "C5440143")
+			)
+			(property
+				(name "PartNumber")
+				(value "CS3225X7R476K160NRL")
+			)
+			(property
+				(name "Voltage")
+				(value "16V")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "205edfd1-15fe-46df-a34f-0fa8ac838b2a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C95")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(description "Cap X5R, 10uF, 6.3V, ±20%, 0402")
+			(fields
+				(field
+					(name "LCSC") "C15525")
+				(field
+					(name "PartNumber") "CL05A106MQ5NUNC")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X5R, 10uF, 6.3V, ±20%, 0402")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "CAPX10U0M6V30-00")
+				(description "Cap X5R, 10uF, 6.3V, ±20%, 0402")
+			)
+			(property
+				(name "LCSC")
+				(value "C15525")
+			)
+			(property
+				(name "PartNumber")
+				(value "CL05A106MQ5NUNC")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "f1b896c0-626d-4aad-a120-da485d5670c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "Green, 3.2V")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(description "LED Emerald Green 120° 20mA 3.2V 358mcd 510nm~531nm Top-mount Water Clear 0603 -40℃~+85℃")
+			(fields
+				(field
+					(name "LCSC") "C51933293")
+				(field
+					(name "PartNumber") "GL0603UG01")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED Emerald Green 120° 20mA 3.2V 358mcd 510nm~531nm Top-mount Water Clear 0603 -40℃~+85℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "LEDN3V20-EGreen-00")
+				(description "LED Emerald Green 120° 20mA 3.2V 358mcd 510nm~531nm Top-mount Water Clear 0603 -40℃~+85℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C51933293")
+			)
+			(property
+				(name "PartNumber")
+				(value "GL0603UG01")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "IR LED")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED*5.0mm*IRGrey*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "ffbfa145-466b-4e63-888d-14eeba1c8a51")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J6")
+			(value "HC-PZ254-11.5L-1x8PZ")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+			(description "Connector, Male Header, 8POS, 2.54mm, SINGLE ROW, TH")
+			(fields
+				(field
+					(name "LCSC") "C27985192")
+				(field
+					(name "PartNumber") "HC-PZ254-11.5L-1x8PZ")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector, Male Header, 8POS, 2.54mm, SINGLE ROW, TH")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "Conn_01x08_M_Header")
+				(description "Connector, Male Header, 8POS, 2.54mm, SINGLE ROW, TH")
+			)
+			(property
+				(name "LCSC")
+				(value "C27985192")
+			)
+			(property
+				(name "PartNumber")
+				(value "HC-PZ254-11.5L-1x8PZ")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "9a415864-c74f-4f86-8ac3-2ee933d2af19")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J7")
+			(value "HC-PZ254-11.5L-1x17PZ")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical")
+			(description "Connector, Male Header, 17POS, 2.54mm, SINGLE ROW, TH")
+			(fields
+				(field
+					(name "LCSC") "C27985196")
+				(field
+					(name "PartNumber") "HC-PZ254-11.5L-1x17PZ")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector, Male Header, 17POS, 2.54mm, SINGLE ROW, TH")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "Conn_01x17_M_Header")
+				(description "Connector, Male Header, 17POS, 2.54mm, SINGLE ROW, TH")
+			)
+			(property
+				(name "LCSC")
+				(value "C27985196")
+			)
+			(property
+				(name "PartNumber")
+				(value "HC-PZ254-11.5L-1x17PZ")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "e480d196-7447-4306-bc48-e3e0aa27c3db")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "db50678d-b9be-420a-b275-5361a533b604")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "ce6dc63d-6b3e-4c7e-a084-3a365dfba79f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "33Ω")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES33R0M-00")
+				(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2906868")
+			)
+			(property
+				(name "PartNumber")
+				(value "FRC0402F33R0TS")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "695874f6-95e4-4728-bf8c-183337bad6d1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES10K0M-00")
+				(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C491106")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA2ARB103X")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "cdc9b1e7-0aeb-4c2a-bfd9-a55cb5b5ad85")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R81")
+			(value "1.18k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(description "Res, 1.18kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(fields
+				(field
+					(name "LCSC") "C2088001")
+				(field
+					(name "PartNumber") "ERA-2AEB1181X")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.18kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "RES1K18M-00")
+				(description "Res, 1.18kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			)
+			(property
+				(name "LCSC")
+				(value "C2088001")
+			)
+			(property
+				(name "PartNumber")
+				(value "ERA-2AEB1181X")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "8e8754d6-5ede-47c3-8f96-89ec2462ea48")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "TPS7A2033")
+			(footprint "Package_TO_SOT_SMD:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+			(description "IC, LDO, 1.6V to 6.0Vin, 3.3V Vout, 300 mA, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			(fields
+				(field
+					(name "LCSC") "C2862740")
+				(field
+					(name "PartNumber") "TPS7A2033PDBVR")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+				(field
+					(name "Description") "IC, LDO, 1.6V to 6.0Vin, 3.3V Vout, 300 mA, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "TPS7A2033PDBVR")
+				(description "250-mA Ultra-Low-Noise Low-IQ LDO, 1.2V, SOT-23")
+			)
+			(property
+				(name "LCSC")
+				(value "C2862740")
+			)
+			(property
+				(name "PartNumber")
+				(value "TPS7A2033PDBVR")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Single Output LDO Low-Iq Texas-Instruments")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*SOT?23*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "ea1032ff-af90-4f2b-b48d-a7a2071f25ec")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U11")
+			(value "TPS7A4700")
+			(footprint "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a47.pdf")
+			(description "IC, LDO, 3-35V, Drop 307mV, 4uVrms, 1A, Adjustable 1.4-34V Output, VQFN-20")
+			(fields
+				(field
+					(name "LCSC") "C114839")
+				(field
+					(name "PartNumber") "TPS7A4700RGWR")
+				(field
+					(name "Current")
+				)
+				(field
+					(name "ESR")
+				)
+				(field
+					(name "KiLib_Generator")
+				)
+				(field
+					(name "Sim.Device")
+				)
+				(field
+					(name "Sim.Pins")
+				)
+				(field
+					(name "Footprint") "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a47.pdf")
+				(field
+					(name "Description") "IC, LDO, 3-35V, Drop 307mV, 4uVrms, 1A, Adjustable 1.4-34V Output, VQFN-20")
+			)
+			(libsource
+				(lib "YV-library")
+				(part "TPS7A4700")
+				(description "IC, LDO, 3-35V, Drop 307mV, 4uVrms, 1A, Adjustable 1.4-34V Output, VQFN-20")
+			)
+			(property
+				(name "LCSC")
+				(value "C114839")
+			)
+			(property
+				(name "PartNumber")
+				(value "TPS7A4700RGWR")
+			)
+			(property
+				(name "Current")
+				(value "")
+			)
+			(property
+				(name "ESR")
+				(value "")
+			)
+			(property
+				(name "KiLib_Generator")
+				(value "")
+			)
+			(property
+				(name "Sim.Device")
+				(value "")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Power - Base Connectors")
+			)
+			(property
+				(name "Sheetfile")
+				(value "power_-_base_connectors.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "linear regulator ldo voltage noise")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Texas*RGW0020A*")
+			)
+			(sheetpath
+				(names "/Power - Base Connectors/")
+				(tstamps "/")
+			)
+			(tstamps "d3fba414-efe6-492a-8619-a1ff0454e050")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "YV-library")
+			(part "CAPN330PM50V0-00")
+			(description "Cap C0G, 330pF, 50V, ±1%, 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C16")
+				(field
+					(name "Value") "330pF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 330pF, 50V, ±1%, 0402")
+				(field
+					(name "LCSC") "C2177105")
+				(field
+					(name "PartNumber") "GRM1555C1H331FA01J")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPN4N70M50V0-00")
+			(description "Cap C0G, 4.7nF, 50V, ±5% 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C4")
+				(field
+					(name "Value") "4.7nF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 4.7nF, 50V, ±5% 0402")
+				(field
+					(name "LCSC") "C1518204")
+				(field
+					(name "PartNumber") "GRM1555C1H472JE01D")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPN560PM50V0-00")
+			(description "Cap C0G, 560pF, 50V, ±1%, 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C16")
+				(field
+					(name "Value") "560pF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap C0G, 560pF, 50V, ±1%, 0402")
+				(field
+					(name "LCSC") "C5182456")
+				(field
+					(name "PartNumber") "CC0402FRNPO9BN561")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPX10U0M6V30-00")
+			(description "Cap X5R, 10uF, 6.3V, ±20%, 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C13")
+				(field
+					(name "Value") "10uF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X5R, 10uF, 6.3V, ±20%, 0402")
+				(field
+					(name "LCSC") "C15525")
+				(field
+					(name "PartNumber") "CL05A106MQ5NUNC")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPX1U00M10V0-00")
+			(description "Cap X7R, 1uF, 10V, ±10%, 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C13")
+				(field
+					(name "Value") "1uF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 1uF, 10V, ±10%, 0402")
+				(field
+					(name "LCSC") "C23692972")
+				(field
+					(name "PartNumber") "CGA0402X7R105K100GT")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPX220NM25V0-00")
+			(description "Cap X7R, 220nF, 25V, ±10%, 0402")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C18")
+				(field
+					(name "Value") "220nF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 220nF, 25V, ±10%, 0402")
+				(field
+					(name "LCSC") "C915854")
+				(field
+					(name "PartNumber") "TCC0402X7R224K250AT")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "CAPX47U0S16V0-00")
+			(description "Cap X7R, 47uF, 16V, ±10%, 1210")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C13")
+				(field
+					(name "Value") "47uF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Cap X7R, 47uF, 16V, ±10%, 1210")
+				(field
+					(name "LCSC") "C5440143")
+				(field
+					(name "PartNumber") "CS3225X7R476K160NRL")
+				(field
+					(name "Voltage") "16V")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "Conn-AudioJack")
+			(description "Audio Jack, 4 Poles (TRRS), 12V 1A 3.5mm Headphone Jack Copper Gold, -30℃~+70℃")
+			(footprints
+				(fp "Jack*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn-AudioJack")
+				(field
+					(name "Footprint") "Connector_Audio:Jack_3.5mm_PJ320D_Horizontal")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Audio Jack, 4 Poles (TRRS), 12V 1A 3.5mm Headphone Jack Copper Gold, -30℃~+70℃")
+				(field
+					(name "PartNumber") "PJ-320D")
+				(field
+					(name "LCSC") "C431535")
+			)
+			(pins
+				(pin
+					(num "R1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "R2")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "S")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "T")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "Conn_01x08_M_Header")
+			(description "Connector, Male Header, 8POS, 2.54mm, SINGLE ROW, TH")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J3")
+				(field
+					(name "Value") "HC-PZ254-11.5L-1x8PZ")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector, Male Header, 8POS, 2.54mm, SINGLE ROW, TH")
+				(field
+					(name "LCSC") "C27985192")
+				(field
+					(name "PartNumber") "HC-PZ254-11.5L-1x8PZ")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "Conn_01x17_M_Header")
+			(description "Connector, Male Header, 17POS, 2.54mm, SINGLE ROW, TH")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J5")
+				(field
+					(name "Value") "HC-PZ254-11.5L-1x17PZ")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Connector, Male Header, 17POS, 2.54mm, SINGLE ROW, TH")
+				(field
+					(name "LCSC") "C27985196")
+				(field
+					(name "PartNumber") "HC-PZ254-11.5L-1x17PZ")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "Pin_5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "Pin_6")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "Pin_7")
+					(type "passive")
+				)
+				(pin
+					(num "8")
+					(name "Pin_8")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "Pin_9")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "Pin_10")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "Pin_11")
+					(type "passive")
+				)
+				(pin
+					(num "12")
+					(name "Pin_12")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "Pin_13")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "Pin_14")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "Pin_15")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "Pin_16")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "Pin_17")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "IC-OPA1612AxD")
+			(description "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+			(docs "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+			(footprints
+				(fp "SOIC*3.9x4.9mm*P1.27mm*")
+				(fp "DIP*W7.62mm*")
+				(fp "TO*99*")
+				(fp "OnSemi*Micro8*")
+				(fp "TSSOP*3x3mm*P0.65mm*")
+				(fp "TSSOP*4.4x3mm*P0.65mm*")
+				(fp "MSOP*3x3mm*P0.65mm*")
+				(fp "SSOP*3.9x4.9mm*P0.635mm*")
+				(fp "LFCSP*2x2mm*P0.5mm*")
+				(fp "*SIP*")
+				(fp "SOIC*5.3x6.2mm*P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "OPA1612A")
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_3x3mm_P0.5mm_EP1.2x2mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa1612.pdf")
+				(field
+					(name "Description") "IC, Dual SoundPlus High Performance, Bipolar-Input Audio Operational Amplifiers, SON-8-EP(3x3)")
+				(field
+					(name "PartNumber") "OPA1612AIDRGR")
+				(field
+					(name "LCSC") "C2058640")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "PAD")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "IC-OPA1622")
+			(description "IC, High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10")
+			(docs "http://www.ti.com/lit/ds/symlink/opa1622.pdf")
+			(footprints
+				(fp "Texas*PVSON*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "OPA1622")
+				(field
+					(name "Footprint") "Package_SON:Texas_S-PVSON-N10")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/opa1622.pdf")
+				(field
+					(name "Description") "IC, High-Fidelity, Bipolar-Input, Audio Operational Amplifier, VSON-10")
+				(field
+					(name "PartNumber") "OPA1622IDRCR")
+				(field
+					(name "LCSC") "C2876559")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "V+")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "V-")
+					(type "power_in")
+				)
+				(pin
+					(num "5")
+					(name "+")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "")
+					(type "output")
+				)
+				(pin
+					(num "10")
+					(name "-")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "V-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "IC-PCM1794A")
+			(description "IC, 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28")
+			(docs "http://www.ti.com/lit/ds/symlink/pcm1794a.pdf")
+			(footprints
+				(fp "SSOP*5.3x10.2mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "IC-PCM1794A")
+				(field
+					(name "Footprint") "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/pcm1794a.pdf")
+				(field
+					(name "Description") "IC, 24-Bit, 192-kHz Sampling, Advanced Segment, Audio Stereo Digital-to-Analog Converter, HW Control, SSOP-28")
+				(field
+					(name "LCSC") "C783606")
+				(field
+					(name "PartNumber") "PCM1794ADBR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "MONO")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "CHSL")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "DEM")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "LRCK")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "DATA")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "BCK")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "SCK")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "DGND")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "MUTE")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "FMT0")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "FMT1")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "ZERO")
+					(type "open_collector")
+				)
+				(pin
+					(num "14")
+					(name "~{RST}")
+					(type "input")
+				)
+				(pin
+					(num "15")
+					(name "VCC2R")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "AGND3R")
+					(type "power_in")
+				)
+				(pin
+					(num "17")
+					(name "IOUTR+")
+					(type "output")
+				)
+				(pin
+					(num "18")
+					(name "IOUTR-")
+					(type "output")
+				)
+				(pin
+					(num "19")
+					(name "AGND1")
+					(type "power_in")
+				)
+				(pin
+					(num "20")
+					(name "IREF")
+					(type "passive")
+				)
+				(pin
+					(num "21")
+					(name "VCOMR")
+					(type "output")
+				)
+				(pin
+					(num "22")
+					(name "VCOML")
+					(type "passive")
+				)
+				(pin
+					(num "23")
+					(name "VCC1")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "AGND2")
+					(type "power_in")
+				)
+				(pin
+					(num "25")
+					(name "IOUTL+")
+					(type "output")
+				)
+				(pin
+					(num "26")
+					(name "IOUTL-")
+					(type "output")
+				)
+				(pin
+					(num "27")
+					(name "AGND3L")
+					(type "power_in")
+				)
+				(pin
+					(num "28")
+					(name "VCC2L")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "LEDN3V20-EGreen-00")
+			(description "LED Emerald Green 120° 20mA 3.2V 358mcd 510nm~531nm Top-mount Water Clear 0603 -40℃~+85℃")
+			(footprints
+				(fp "LED*5.0mm*IRGrey*")
+			)
+			(fields
+				(field
+					(name "Reference") "D4")
+				(field
+					(name "Value") "Green, 3.2V")
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "LED Emerald Green 120° 20mA 3.2V 358mcd 510nm~531nm Top-mount Water Clear 0603 -40℃~+85℃")
+				(field
+					(name "LCSC") "C51933293")
+				(field
+					(name "PartNumber") "GL0603UG01")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES10K0M-00")
+			(description "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R2")
+				(field
+					(name "Value") "10k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 10kΩ, 50V, 62.5mW, Thin Film, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C491106")
+				(field
+					(name "PartNumber") "ERA2ARB103X")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES1K00M-00")
+			(description "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R14")
+				(field
+					(name "Value") "1k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±10ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C509028")
+				(field
+					(name "PartNumber") "ERA2ARB102X")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES1K18M-00")
+			(description "Res, 1.18kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R14")
+				(field
+					(name "Value") "1.18k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.18kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C2088001")
+				(field
+					(name "PartNumber") "ERA-2AEB1181X")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES1K58M-00")
+			(description "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R14")
+				(field
+					(name "Value") "1.58k")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 1.58kΩ, 50V, 63mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C852613")
+				(field
+					(name "PartNumber") "RT0402BRD071K58L")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES33R0M-00")
+			(description "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R14")
+				(field
+					(name "Value") "33Ω")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 33Ω, 50V, 62.5mW, Thick Film, ±1%, ±100ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C2906868")
+				(field
+					(name "PartNumber") "FRC0402F33R0TS")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "RES560RM-00")
+			(description "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R14")
+				(field
+					(name "Value") "560R")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Res, 560Ω, 50V, 62mW, Thin Film Resistor, ±0.1%, ±25ppm/℃, 0402, -55℃~+155℃")
+				(field
+					(name "LCSC") "C28566372")
+				(field
+					(name "PartNumber") "TC0225B5600TCC")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "SN74LV1T34DBV")
+			(description "IC, 2x Buffers, Vin 1.65V~5.5V, 10uA, Iout 24mA, 6.6ns@5V, 50pF, 74LVC Push-pull, SOT23-6, -40℃~+85℃")
+			(footprints
+				(fp "SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "SN74LVC2G34")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-6")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "IC, 2x Buffers, Vin 1.65V~5.5V, 10uA, Iout 24mA, 6.6ns@5V, 50pF, 74LVC Push-pull, SOT23-6, -40℃~+85℃")
+				(field
+					(name "LCSC") "C7394039")
+				(field
+					(name "PartNumber") "SN74LVC2G34DBVR(UMW)")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "INA1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "INA2")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "Y2")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "Y1")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "SX3M22.5792B20F30TNF")
+			(description "Oscillator, 22.5792MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			(docs "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+			(footprints
+				(fp "Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "SX3M22.5792B20F30TNF")
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+				(field
+					(name "Datasheet") "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+				(field
+					(name "Description") "Oscillator, 22.5792MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+				(field
+					(name "LCSC") "C19268185")
+				(field
+					(name "PartNumber") "SX3M22.5792B20F30TNF")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "SX3M24.576B20F30TNF")
+			(description "Oscillator, 24.576MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+			(docs "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+			(footprints
+				(fp "Oscillator*SMD*EuroQuartz*XO32*3.2x2.5mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "SX3M24.576B20F30TNF")
+				(field
+					(name "Footprint") "Oscillator:Oscillator_SMD_EuroQuartz_XO32-4Pin_3.2x2.5mm_RotB_HandSoldering")
+				(field
+					(name "Datasheet") "http://cdn-reichelt.de/documents/datenblatt/B400/XO32.pdf")
+				(field
+					(name "Description") "Oscillator, 24.576MHz, 3.3V, 10mA, Low Jitter, CMOS, ±20ppm,±30ppm, SMD3225-4P, -40℃~+85℃")
+				(field
+					(name "LCSC") "C19268186")
+				(field
+					(name "PartNumber") "SX3M24.576B20F30TNF")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "V+")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "TPS7A2033PDBVR")
+			(description "IC, LDO, 1.6V to 6.0Vin, 3.3V Vout, 300 mA, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+			(docs "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+			(footprints
+				(fp "*SOT?23*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A2033")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
+				(field
+					(name "Description") "IC, LDO, 1.6V to 6.0Vin, 3.3V Vout, 300 mA, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23")
+				(field
+					(name "LCSC") "C2862740")
+				(field
+					(name "PartNumber") "TPS7A2033PDBVR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "YV-library")
+			(part "TPS7A4700")
+			(description "IC, LDO, 3-35V, Drop 307mV, 4uVrms, 1A, Adjustable 1.4-34V Output, VQFN-20")
+			(docs "https://www.ti.com/lit/ds/symlink/tps7a47.pdf")
+			(footprints
+				(fp "Texas*RGW0020A*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TPS7A4700")
+				(field
+					(name "Footprint") "Package_DFN_QFN:Texas_RGW0020A_VQFN-20-1EP_5x5mm_P0.65mm_EP3.15x3.15mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a47.pdf")
+				(field
+					(name "Description") "IC, LDO, 3-35V, Drop 307mV, 4uVrms, 1A, Adjustable 1.4-34V Output, VQFN-20")
+				(field
+					(name "LCSC") "C114839")
+				(field
+					(name "PartNumber") "TPS7A4700RGWR")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "2")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SENSE/FB")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "6.4V")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "6.4V")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "3.2V")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "1.6V")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "0.8V")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "0.4V")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "0.2V")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "0.1V")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "NR")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "IN")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "18")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "NC")
+					(type "passive")
+				)
+				(pin
+					(num "20")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "21")
+					(name "PAD")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "YV-library")
+			(uri "${KIPRJMOD}/YV-library.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Power,Default")
+			(node
+				(ref "C22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "14")
+				(pinfunction "Pin_14_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "VDD_9")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "+5.5V")
+			(class "Power,Default")
+			(node
+				(ref "C92")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C94")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "13")
+				(pinfunction "EN_13")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "15")
+				(pinfunction "IN_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "16")
+				(pinfunction "IN_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "IN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "+5V")
+			(class "Power,Default")
+			(node
+				(ref "J6")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "+12.4V")
+			(class "Power,Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "8")
+				(pinfunction "V+_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "V+_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "5")
+			(name "-12.4V")
+			(class "Power,Default")
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "16")
+				(pinfunction "Pin_16_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "PAD_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "9")
+				(pinfunction "PAD_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "11")
+				(pinfunction "V-_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "V-_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "6")
+			(name "/uCtrl and Clk/LeftAudio")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "T")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "9")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "7")
+			(name "/uCtrl and Clk/Mic")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "S")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "8")
+			(name "/uCtrl and Clk/Right Audio")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "R1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "9")
+			(name "/uCtrl and Clk/SCK")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "SCK_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "INA1_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "AVDD")
+			(class "Default")
+			(node
+				(ref "C19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C88")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C90")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R81")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "VCC2R_15")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "VCC1_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "VCC2L_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "1")
+				(pinfunction "OUT_1")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U11")
+				(pin "20")
+				(pinfunction "OUT_20")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U11")
+				(pin "3")
+				(pinfunction "SENSE/FB_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "CLK_22p5792en")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "8")
+				(pinfunction "Pin_8_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y2")
+				(pin "1")
+				(pinfunction "EN_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "CLK_24p5760en")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y1")
+				(pin "1")
+				(pinfunction "EN_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "Clk-3V3")
+			(class "Default")
+			(node
+				(ref "C23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C95")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "power_out")
+			)
+			(node
+				(ref "Y1")
+				(pin "4")
+				(pinfunction "V+_4")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y2")
+				(pin "4")
+				(pinfunction "V+_4")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "14")
+			(name "GND")
+			(class "Power,Default")
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C19")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C88")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C90")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C92")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C93")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C94")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C95")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "R2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J6")
+				(pin "7")
+				(pinfunction "Pin_7_7")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "15")
+				(pinfunction "Pin_15_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "17")
+				(pinfunction "Pin_17_17")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J7")
+				(pin "9")
+				(pinfunction "Pin_9_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "MONO_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "FMT0_11")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "FMT1_12")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "AGND3R_16")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "AGND1_19")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "CHSL_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "AGND2_24")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "AGND3L_27")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "DEM_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "DGND_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U11")
+				(pin "10")
+				(pinfunction "0.4V_10")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "21")
+				(pinfunction "PAD_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "6")
+				(pinfunction "3.2V_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U11")
+				(pin "7")
+				(pinfunction "GND_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "+_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "INA2_3")
+				(pintype "input")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Y2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "15")
+			(name "I2S_BCK")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "BCK_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "I2S_DATA")
+			(class "Default")
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "DATA_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "I2S_LRCK")
+			(class "Default")
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "LRCK_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "IO54")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "IO55")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "IO56")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "IO57")
+			(class "Default")
+			(node
+				(ref "J6")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "IO59")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "13")
+				(pinfunction "Pin_13_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "MUTE")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "10")
+				(pinfunction "Pin_10_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "MUTE_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(C1-Pad2)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(C6-Pad2)")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(C8-Pad2)")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(C9-Pad2)")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "7")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(D1-A)")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R81")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(J7-Pin_3)")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(J7-Pin_4)")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(J7-Pin_5)")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "5")
+				(pinfunction "Pin_5_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(U1-IOUTL+)")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "IOUTL+_25")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(U1-IOUTL-)")
+			(class "Default")
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "IOUTL-_26")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(U1-IOUTR+)")
+			(class "Default")
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "IOUTR+_17")
+				(pintype "output")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(U1-IOUTR-)")
+			(class "Default")
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "IOUTR-_18")
+				(pintype "output")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(U1-IREF)")
+			(class "Default")
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "IREF_20")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(U1-VCOML)")
+			(class "Default")
+			(node
+				(ref "C26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "VCOML_22")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(U1-VCOMR)")
+			(class "Default")
+			(node
+				(ref "C27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "VCOMR_21")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(U4-Y1)")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "Y1_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(U5A-+)")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(U5A--)")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "10")
+				(pinfunction "-_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(U5B-+)")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "+_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(U5B--)")
+			(class "Default")
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "6")
+				(pinfunction "-_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(U11-NR)")
+			(class "Default")
+			(node
+				(ref "C93")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U11")
+				(pin "14")
+				(pinfunction "NR_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Net-(Y1-OUT)")
+			(class "Default")
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y1")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "46")
+			(name "Net-(Y2-OUT)")
+			(class "Default")
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y2")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "47")
+			(name "OPA1622en")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "12")
+				(pinfunction "Pin_12_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "8")
+				(pinfunction "EN_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "REFCLK")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "6")
+				(pinfunction "Pin_6_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "49")
+			(name "RSTn")
+			(class "Default")
+			(node
+				(ref "J7")
+				(pin "11")
+				(pinfunction "Pin_11_11")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "~{RST}_14")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(U1-ZERO-Pad13)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "ZERO_13")
+				(pintype "open_collector+no_connect")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(U4-Y2-Pad4)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "Y2_4")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(U6-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U11-0.1V-Pad12)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "12")
+				(pinfunction "0.1V_12")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U11-0.2V-Pad11)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "11")
+				(pinfunction "0.2V_11")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(U11-0.8V-Pad9)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "9")
+				(pinfunction "0.8V_9")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(U11-1.6V-Pad8)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "8")
+				(pinfunction "1.6V_8")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(U11-6.4V-Pad4)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "4")
+				(pinfunction "6.4V_4")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U11-6.4V-Pad5)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "5")
+				(pinfunction "6.4V_5")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U11-NC-Pad2)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "2")
+				(pinfunction "NC_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U11-NC-Pad17)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "17")
+				(pinfunction "NC_17")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U11-NC-Pad18)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "18")
+				(pinfunction "NC_18")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(U11-NC-Pad19)")
+			(class "Default")
+			(node
+				(ref "U11")
+				(pin "19")
+				(pinfunction "NC_19")
+				(pintype "passive+no_connect")
+			)
+		)
+	)
+)
